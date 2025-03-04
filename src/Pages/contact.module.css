@@ -1,0 +1,35 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:60vh ;
+    margin-top: 5rem;
+    padding: 3rem;
+}
+.cont{
+    background-color: rgb(49, 49, 49);
+    padding: 4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    min-width:40rem;
+    max-width: 30%;
+    gap: 0.5rem;
+}
+label{
+    padding: 10px 0;
+    color:white;
+    font-size: 1.7rem;
+}
+input,textarea{
+    padding: 10px 5px;
+    font-size: 1.7rem;
+}
+.btn1{
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: antiquewhite;
+    font-size: 1.6rem;
+    &:hover{
+        background-color: rgb(245, 185, 107);
+    }
+}

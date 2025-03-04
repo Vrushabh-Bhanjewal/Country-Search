@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "India",
+    "population": 1400000000,
+    "gdp": 3469,
+    "capital": "New Delhi",
+    "interesting_fact": "India is the largest democracy in the world."
+  },
+  {
+    "id": 2,
+    "name": "United States",
+    "population": 331000000,
+    "gdp": 26000,
+    "capital": "Washington, D.C.",
+    "interesting_fact": "The U.S. has the world's largest economy by nominal GDP."
+  },
+  {
+    "id": 3,
+    "name": "China",
+    "population": 1440000000,
+    "gdp": 17000,
+    "capital": "Beijing",
+    "interesting_fact": "The Great Wall of China is the longest man-made structure in the world."
+  },
+  {
+    "id": 4,
+    "name": "Brazil",
+    "population": 213000000,
+    "gdp": 1600,
+    "capital": "Brasília",
+    "interesting_fact": "Brazil is home to the Amazon Rainforest, the largest rainforest in the world."
+  },
+  {
+    "id": 5,
+    "name": "Germany",
+    "population": 83000000,
+    "gdp": 4600,
+    "capital": "Berlin",
+    "interesting_fact": "Germany is known for having the largest economy in Europe."
+  },
+  {
+    "id": 6,
+    "name": "Japan",
+    "population": 126000000,
+    "gdp": 4200,
+    "capital": "Tokyo",
+    "interesting_fact": "Japan has the highest number of vending machines per capita in the world."
+  },
+  {
+    "id": 7,
+    "name": "Canada",
+    "population": 38000000,
+    "gdp": 5200,
+    "capital": "Ottawa",
+    "interesting_fact": "Canada has the longest coastline of any country in the world."
+  },
+  {
+    "id": 8,
+    "name": "Australia",
+    "population": 26000000,
+    "gdp": 5700,
+    "capital": "Canberra",
+    "interesting_fact": "Australia is the only continent without an active volcano."
+  },
+  {
+    "id": 9,
+    "name": "France",
+    "population": 67000000,
+    "gdp": 4300,
+    "capital": "Paris",
+    "interesting_fact": "The Eiffel Tower in France was supposed to be a temporary structure."
+  },
+  {
+    "id": 10,
+    "name": "Russia",
+    "population": 144000000,
+    "gdp": 1600,
+    "capital": "Moscow",
+    "interesting_fact": "Russia is the largest country in the world by land area."
+  },
+  {
+    "id": 11,
+    "name": "South Africa",
+    "population": 60000000,
+    "gdp": 700,
+    "capital": "Pretoria",
+    "interesting_fact": "South Africa has three capital cities: Pretoria, Cape Town, and Bloemfontein."
+  },
+  {
+    "id": 12,
+    "name": "Italy",
+    "population": 60000000,
+    "gdp": 3500,
+    "capital": "Rome",
+    "interesting_fact": "Italy is home to the smallest country in the world, Vatican City."
+  },
+  {
+    "id": 13,
+    "name": "South Korea",
+    "population": 52000000,
+    "gdp": 3500,
+    "capital": "Seoul",
+    "interesting_fact": "South Korea is known for having the fastest internet connection speed globally."
+  },
+  {
+    "id": 14,
+    "name": "Mexico",
+    "population": 126000000,
+    "gdp": 1200,
+    "capital": "Mexico City",
+    "interesting_fact": "Mexico introduced chocolate to the world."
+  },
+  {
+    "id": 15,
+    "name": "Egypt",
+    "population": 104000000,
+    "gdp": 420,
+    "capital": "Cairo",
+    "interesting_fact": "Egypt is home to one of the Seven Wonders of the Ancient World, the Great Pyramid of Giza."
+  }
+]
