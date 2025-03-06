@@ -8,7 +8,7 @@ import SearchFilter from "../Components/UI/SearchFilter";
 function Country() {
   const [country, setCountry] = useState([]);
   const [isPending, startTransition] = useTransition();
-  const [search, setSearch] = useState();
+  const [search, setSearch] = useState("");
   const [filter, setFilter] = useState('All');
 
   useEffect(() => {
@@ -55,6 +55,8 @@ function Country() {
             setSearch={setSearch}
             filter={filter}
             setFilter={setFilter}
+            country={country}
+            setCountry={setCountry}
           />
         </div>
         <ul className={style["grid-four"]}>
