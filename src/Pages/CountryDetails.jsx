@@ -4,7 +4,7 @@ import { getIndCountry } from '../Components/API/CountryAPI'
 import Loader from '../Components/UI/Loader'
 import style from './countryDetail.module.css'
 import { GoArrowLeft } from 'react-icons/go'
-
+import {NavLink } from 'react-router-dom'
 function CountryDetails() {
     const nameid=useParams()
     const [country,setCountry] = useState()
@@ -14,7 +14,7 @@ function CountryDetails() {
         setTransition(async()=>{
             try{
                 const res=await getIndCountry(nameid.id)
-                console.log(res.data[0])
+                // console.log(res.data[0])
                 if(res.status==200){
                     setCountry(res.data[0])
                 }
@@ -34,9 +34,11 @@ function CountryDetails() {
     <div className='container'>
         {country && (
             <div>
-                <button className={style.back}>
-                <GoArrowLeft />
-                </button>
+                <NavLink to="/Country">
+                    <button className={style.back}>
+                        <GoArrowLeft />
+                    </button>
+                </NavLink>
                 <div className={style['flex-two']}>
                     <figure className={style.img}>
                         <img src={country.flags.png} alt={country.flags.alt} />

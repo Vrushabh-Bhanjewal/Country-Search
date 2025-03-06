@@ -4,7 +4,7 @@
 }
 .grid-four{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    grid-template-columns: repeat(auto-fit,25rem);
     gap:3rem;
 }
 .country-header{
@@ -59,4 +59,30 @@
 }
 .key{
     color: antiquewhite;
+}
+/* ------search css -----*/
+.filter-box{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.filter-btns{
+    display: flex;
+    gap: 2rem;
+    & button,select{
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+    }
+    & button{
+        background-color: antiquewhite;
+        border-radius: 6rem;
+        font-weight: 500;
+        &:hover{
+            background-color: rgb(245, 181, 98);
+            scale: 1.05;
+            transition: all o.5s ease;
+            box-shadow: rgba(245, 221, 169, 0.354) 0px 7px 29px 0px;
+        }
+    }
 }
