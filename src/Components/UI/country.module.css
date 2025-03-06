@@ -1,0 +1,62 @@
+.country-sec{
+    padding: 2rem;
+    margin: 5rem auto;
+}
+.grid-four{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    gap:3rem;
+}
+.country-header{
+    padding: 2rem 0 5rem;
+    & h1{
+        font-size: 4rem;
+    }
+}
+.cardBox{
+    padding: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1rem;
+    &:hover{
+        background-color: rgb(40, 41, 41);
+        scale: 1.05;
+        transition: all 0.5s ease;
+    }
+}
+.img{
+    width: 100%;
+    height:15rem;
+    & img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.card-content{
+    display: flex;
+    padding: 2rem 0 0;
+    flex-direction: column;
+    gap: 0.5rem;
+    & h1{
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+}
+.read{
+    padding: 1rem 1rem;
+    width: fit-content;
+    background-color: antiquewhite;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+    &:hover{
+        background-color: rgb(245, 194, 127);
+        scale: 1.05;
+        box-shadow: rgba(245, 220, 166, 0.2) 0px 7px 29px 0px;
+        transition: all 0.5s ease;
+    }
+}
+.key{
+    color: antiquewhite;
+}

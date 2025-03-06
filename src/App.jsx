@@ -6,6 +6,7 @@ import Contact from './Pages/Contact'
 import AppLayout from './Components/Layouts/AppLayout'
 import { Children } from 'react'
 import ErrorPage from './Pages/ErrorPage'
+import CountryDetails from './Pages/CountryDetails'
 
 function App() {
   const route=createBrowserRouter([
@@ -25,6 +26,10 @@ function App() {
         {
           path:'/Country',
           element:<Country/>
+        },
+        {
+          path:'/Country/:id',
+          element:<CountryDetails />
         },
         {
           path:'/Contact',

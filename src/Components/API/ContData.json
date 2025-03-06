@@ -1,0 +1,17 @@
+[
+    {
+    "icon":"FaMapMarkerAlt",
+    "title":"Find Us",
+    "body":"India,Pune"
+    },
+    {
+    "icon":"FaMapMarked",
+    "title":"Location",
+    "body":"Pimpri"
+    },
+    {
+    "icon":"FaAddressBook",
+    "title":"Contact",
+    "body":"1234567890"
+    }
+]
